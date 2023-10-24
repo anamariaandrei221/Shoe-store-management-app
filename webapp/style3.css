@@ -1,0 +1,331 @@
+form {
+  margin: 10px;
+}
+body {
+  background-color: white;
+  margin: 0;
+}
+
+h1 {
+  font-size: 100px;
+  color: rgb(255, 102, 0);
+}
+
+.titlu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.login_card {
+  width: auto;
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 50px;
+  border: 5px solid rgb(255, 102, 0);
+  border-radius: 50px;
+  padding: 10px;
+  background-color: rgb(255, 166, 77);
+}
+.register_card {
+  width: auto;
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 50px;
+  border: 5px solid rgb(255, 102, 0);
+  border-radius: 40px;
+  padding: 15px;
+  background-color: rgb(255, 166, 77);
+}
+
+input {
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.login_card label {
+  display: inline-block;
+  width: 180px;
+}
+.register_card label {
+  display: inline-block;
+  width: 180px;
+}
+
+.usernameLabel {
+  display: flex;
+  align-items: center;
+}
+
+.passwordLabel {
+  display: flex;
+  align-items: center;
+}
+
+.numeLabel {
+  display: flex;
+  align-items: center;
+}
+
+.usernameLabelRegister {
+  display: flex;
+  align-items: center;
+}
+
+.passwordLabelRegister {
+  display: flex;
+  align-items: center;
+}
+.buton {
+  background-color: rgb(255, 102, 0);
+  color: black;
+  border: 2px solid rgb(230, 92, 0);
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  font-family: "Times New Roman", Times, serif;
+  width: 100px;
+}
+
+.buton:hover {
+  background-color: rgb(255, 102, 0);
+  color: white;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(255, 102, 0);
+}
+
+.topnav a {
+  float: left;
+  color: #070300;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+table {
+  text-align: center;
+}
+.topnav a:hover {
+  background-color: rgb(253, 245, 230);
+  color: black;
+}
+
+.topnav a .active {
+  background-color: rgb(255, 102, 0);
+  color: white;
+}
+
+thead {
+  position: sticky;
+  top: 40px;
+}
+
+th {
+  text-align: center;
+  background-color: rgb(255, 102, 0);
+  width: fit-content;
+  position: sticky;
+}
+table th,
+table td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+table tbody {
+  background-color: rgb(255, 243, 230);
+}
+
+.formButoane {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.login_card h5 {
+  font-size: 20px;
+  color: red;
+  margin: 0px;
+}
+
+
+.updateinput {
+  display: table-cell;
+}
+
+.ordonare {
+  background-color: rgb(255, 102, 0);
+  border-radius: 3px;
+  font-weight: bold;
+  
+ 
+}
+.actiuni {
+  background-color: rgb(255, 102, 0);
+  border-radius: 3px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.shoe {
+  width: 100px;
+  height: 100px;
+}
+img {
+  height: 15px;
+  width: 10px;
+}
+.imagine {
+  height: 30px;
+  width: 20px;
+}
+
+.container4 {
+  display: flex;
+}
+
+.cautarediv {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-size: 15px;
+  font-weight: bold;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: rgb(255, 102, 0);
+}
+.containerul {
+  display: flex;
+  align-items: flex-start;
+}
+
+.formuri {
+  margin-left: 10px;
+  border: 1px solid #333;
+
+  padding: 8px;
+  border: 5px solid rgb(255, 102, 0);
+  background-color:rgb(255, 204, 153);
+ border-radius: 3px;
+  font-weight: bold;
+  font-size: 20px;
+  position: sticky;
+  top: 40px;
+}
+
+.updatebutton {
+  background-color: rgb(255, 102, 0);
+  border-radius: 3px;
+  padding:5px 10px;
+  color:white;
+  font-weight: bold;
+}
+
+.istoricdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.butoanele {
+  background-color: rgb(255, 102, 0);
+  border-radius: 3px;
+  font-weight: bold;
+  margin-top: 10px;
+  color:white;
+  padding:5px;
+}
+
+fieldset {
+  border: 1px solid #000;
+  font-size: 15px;
+}
+
+.filler {
+  height: 60px;
+}
+
+.cautareafisare {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.updateform
+{
+  display:table;
+  padding:15px;
+  border-radius:5px;
+  border: 5px solid rgb(255, 102, 0);
+  background-color: rgb(255, 166, 77);
+}
+
+.updateinput{
+display:table-cell;
+}
+
+.updateLabel
+{
+  display:table-cell;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.pupdate{
+  display:table-row;
+}
+
+
+
+.invisible
+{
+  display:none;
+}
